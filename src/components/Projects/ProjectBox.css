@@ -1,0 +1,19 @@
+.projectBox{
+    height: 80%;
+    width: 25.5%;
+    border: 0.1px solid red;
+    margin:1rem 0rem ;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 3px 3px 9px red;
+}
+.projectBox img{
+    width: 18.3rem;
+}
+.projectBox-text{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.projectBox-text p{
+    margin-top: 1rem;
+}

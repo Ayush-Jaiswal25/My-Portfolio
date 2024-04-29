@@ -1,0 +1,45 @@
+.body1{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    /* border: 2px solid white; */
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px yellow solid; */
+    height: 80%;
+    width: 100%;
+}
+.frontend{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 95%;
+    width: 22.5%;
+    border: 2px rgb(76, 87, 99) solid;
+    border-radius: 0.8rem;
+}
+.content div img{
+    height: 6rem;
+    border: 2px rgb(249, 228, 189) solid;
+    border-radius: 50%;
+}
+.content div h3{
+    /* border: 2px rgb(7, 231, 101) solid; */
+    /* width: 100%; */
+    margin: -1rem 4rem;
+}
+.backend{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 95%;
+    width: 22.5%;
+    border: 2px rgb(77, 99, 83) solid;
+    border-radius: 0.8rem;
+}

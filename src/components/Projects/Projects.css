@@ -1,0 +1,13 @@
+.body5{
+    height: 90vh !important;
+}
+.body2{
+    margin-top: 3rem !important;
+}
+.project-content{
+    height: 85%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

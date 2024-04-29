@@ -1,0 +1,42 @@
+.body4{
+    height: 80vh;
+}
+.academic-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+}
+.college{
+    height: 40%;
+    width: 90%;
+    border: 0.1px solid green;
+    border-radius: 0.8rem;
+    box-shadow: 1px 1px 6px green;
+    padding-top: 1rem;
+}
+.college:hover{
+    border: 2px solid green;
+    box-shadow: 2px 2px 15px green;
+}
+.school{
+    padding-top: 1rem;
+    height: 40%;
+    width: 90%;
+    border: 0.1px solid greenyellow;
+    border-radius: 0.8rem;
+    box-shadow: 1px 1px 6px greenyellow;
+}
+.school:hover{
+    border: 2px solid greenyellow;
+    box-shadow: 2px 2px 10px greenyellow;
+}
+.para{
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+}
+.h33{
+    padding: 0rem 1rem;
+}
