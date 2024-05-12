@@ -9,27 +9,36 @@ import boy from '../../assets/boy1.jpg'
 function Hero() {
   return (
     <div>
-        <div className="body">
-        <h1 className='title'>Mern Stack Developer</h1>
-            <div className="hero">
-                <div className="profile-text">
-                    <h1 className="name">Hey, I'm Ayush</h1>
-                    <p>I'm a full-stack developer specialised in frontend and backend development for scalable web apps.I have made a variety of Mern Stack Applications. Want to know how I may help your project? Check out my projects from my GitHub Profile</p>
-                    <div className="mern-img">
-                        <img src={mongo} alt="" />
-                        <div className="express">
-                          <label>Express</label>
-                          <img src={js} alt="" />
-                        </div>
-                        <img src={react} alt="" />
-                        <img src={nodejs} alt="" />
-                    </div>
+      <div className="body">
+      <h1 className='title'>Mern Stack Developer</h1>
+        <div className="hero">
+            <div className="profile-text">
+              <h1 className="name">Hey, I'm Ayush</h1>
+              <p>I'm a full-stack developer specialised in frontend and backend development for scalable web apps.I have made a variety of Mern Stack Applications. Want to know how I may help your project? Check out my projects from my GitHub Profile</p>
+              <div className="mern-img">
+                <img src={mongo} alt="" />
+                <div className="express">
+                  <label>Express</label>
+                  <img src={js} alt="" />
                 </div>
-                <div className="profile-image">
-                  <img className='boy' src={boy} alt="" />
-                </div>
+                <img src={react} alt="" />
+                <img src={nodejs} alt="" />
+              </div>
             </div>
-            <Navbar/>
+            <div className="profile-image">
+              <img className='boy' src={boy} alt="" />
+            </div>
+            <div className="hide-mern-image">
+            <img src={mongo} alt="" />
+              <img className='Hreact' src={react} alt="" />
+              <div className="Hexpress">
+                <label className='exH'>Express</label>
+                <img src={js} alt="" />
+              </div>
+              <img className='nodeimg' src={nodejs} alt="" />
+            </div>
+          </div>
+          <Navbar/>
         </div>
     </div>
   )

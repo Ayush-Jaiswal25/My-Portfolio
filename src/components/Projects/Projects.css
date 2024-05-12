@@ -5,9 +5,15 @@
     margin-top: 3rem !important;
 }
 .project-content{
+    /* border: 2px yellow solid; */
     height: 85%;
     width: 90%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+@media (max-width: 415px){
+    .body5{
+        margin-top: -7rem !important;
+    }
 }

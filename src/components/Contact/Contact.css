@@ -8,13 +8,11 @@
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    /* border: 2px hotpink solid; */
 }
 
 .contact-form{
     height: 60%;
     width: 60%;
-    /* border: 2px solid gold; */
     margin-top: 1rem;
     overflow: hidden;
     border-radius: 0.8rem;
@@ -44,7 +42,6 @@
     flex-wrap: wrap;
     width: 50%;
     height: 80%;
-    /* border: 2px solid khaki; */
 }
 .contact-form form input{
     height: 1.5rem;
@@ -153,4 +150,32 @@ textarea{
 }
 .email-visible{
     display: block;
+}
+
+@media (max-width: 425px){
+    .body3 h1{
+        z-index: 5;
+    }
+    .social-contact{
+        height: 150%;
+    }
+    .contact-form{
+        height: 35%;
+        width: 90%;
+    }
+    .contact-form h3{
+        position: relative;
+        top: 0.5rem;
+    }
+    .social-media{
+        margin-top: -20rem;
+        height: 10%;
+        width: 90%;
+    }
+    .name_email label{
+        z-index: 5;
+    }
+    textarea{
+        margin-top: 2.2rem;
+    }
 }

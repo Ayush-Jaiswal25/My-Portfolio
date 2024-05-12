@@ -43,3 +43,21 @@
     border: 2px rgb(77, 99, 83) solid;
     border-radius: 0.8rem;
 }
+@media (max-width: 415px){
+    .body1{
+        /* border: 2px red solid; */
+        margin-top: 2rem;
+    }
+    .body1 h1{
+        position: relative;
+        top: 2rem;
+    }
+    .frontend{
+        width: 80%;
+        height: 70%;
+    }
+    .backend{
+        width: 80%;
+        height: 70%;
+    }
+}

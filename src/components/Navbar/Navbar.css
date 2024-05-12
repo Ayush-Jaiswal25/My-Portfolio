@@ -67,9 +67,25 @@
     cursor: pointer;
 }
 
-/* .d{
-    margin-top: 10rem;
-    height: 120vh;
-    width: 100vw;
-    border: 5px solid blueviolet;
-} */
+@media (max-width: 425px){
+    .navbar{
+        width: 80vw;
+    }
+    .sub-navbar1{
+        width: 65%;
+    }
+    .sub-navbar2{
+        width: 30%;
+    }
+    .ski{
+        display: none;
+    }
+    .acad{
+        display: none;
+    }
+    .sub-navbar1-right{
+        width: 45%;
+        margin-right: -1.5rem;
+    }
+   
+}
